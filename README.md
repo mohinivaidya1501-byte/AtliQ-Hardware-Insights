@@ -11,7 +11,9 @@ This project analyzes AtliQ Hardware's finance data using MySQL. The main goal i
 ## Key Highlights
 
 * Used window functions to generate a report showing the top 10 customer by percentage of net sales for FY 2021.
-* Created user-defined functions (UDFs) to calculate the fiscal year and fiscal quarter.
+* Created user-defined functions (UDFs) to calculate:
+  * Fiscal year
+  * Fiscal quarter
 * Developed stored procedures to automate:
   * Monthly sales reports
   * Market badge classification (Gold if quantity > 5 million, otherwise Silver)
@@ -30,3 +32,42 @@ This project analyzes AtliQ Hardware's finance data using MySQL. The main goal i
 * Stored Procedures
 * Window Functions (`ROW_NUMBER()`, `RANK()`, `DENSE_RANK()`)
 * User-Defined Functions (UDFs)
+
+## Attached Screenshots
+
+### 1. Top 10 customer by percentage of net sales for FY 2021
+![Top 10 customer by percentage of net sales for FY 2021](https://github.com/mohinivaidya1501-byte/AtliQ-Hardware-Insights/blob/main/Queries%20Screenshot/Net%20Sales%20Percentage%20by%20Customer.png)
+
+### 2. Fiscal Year Function (Function)
+![Fiscal year](https://github.com/mohinivaidya1501-byte/AtliQ-Hardware-Insights/blob/main/Queries%20Screenshot/Fiscal%20Year%20Function.png)
+
+### 3. Fiscal Quarter Function (Function)
+![Fiscal quarter](https://github.com/mohinivaidya1501-byte/AtliQ-Hardware-Insights/blob/main/Queries%20Screenshot/Fiscal%20Quarter%20Function.png)
+
+### 4. Monthly sales reports (Stored Procedure)
+![Monthly sales reports](https://github.com/mohinivaidya1501-byte/AtliQ-Hardware-Insights/blob/main/Queries%20Screenshot/Montly%20Sales%20Report%20(Procedures).png)
+
+### 5. Market badge classification (Gold if quantity > 5 million, otherwise Silver) (Stored Procedure)
+![Market badge](https://github.com/mohinivaidya1501-byte/AtliQ-Hardware-Insights/blob/main/Queries%20Screenshot/Market%20Badge%20(Procedure).png)
+
+### 6. Top markets based on net sales (Stored Procedure)
+![Top markets based on net sales](https://github.com/mohinivaidya1501-byte/AtliQ-Hardware-Insights/blob/main/Queries%20Screenshot/Top%20Market%20by%20Net%20Sales%20(Procedure).png)
+
+### 7. Top customers based on net sales (Stored Procedure)
+![Top customers based on net sales](https://github.com/mohinivaidya1501-byte/AtliQ-Hardware-Insights/blob/main/Queries%20Screenshot/Top%20Customers%20by%20Net%20Sales%20(Procedure).png)
+
+### 8. Top products based on net sales (Stored Procedure)
+![Top products based on net sales](https://github.com/mohinivaidya1501-byte/AtliQ-Hardware-Insights/blob/main/Queries%20Screenshot/Top%20Products%20by%20Net%20Sales%20(Procedure).png)
+
+### 9. Top Products per division by quantity sold (Stored Procedure)
+![Top Products per division by quantity sold](https://github.com/mohinivaidya1501-byte/AtliQ-Hardware-Insights/blob/main/Queries%20Screenshot/Top%20Products%20per%20Division%20by%20Quantity%20Sold%20(Procedure).png)
+
+### 10. Pre-invoice deductions (View)
+![Pre-invoice deductions](https://github.com/mohinivaidya1501-byte/AtliQ-Hardware-Insights/blob/main/Queries%20Screenshot/Pre-Invoice%20Discount%20(View).png)
+
+### 11. Post-invoice deductions (View)
+![Post-invoice deductions](https://github.com/mohinivaidya1501-byte/AtliQ-Hardware-Insights/blob/main/Queries%20Screenshot/Post-Invoice%20Discount%20(View).png)
+
+### 12. Final net sales (View)
+![Final net sales](https://github.com/mohinivaidya1501-byte/AtliQ-Hardware-Insights/blob/main/Queries%20Screenshot/Net%20Sales%20(View).png)
+
